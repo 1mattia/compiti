@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text: white;
+    --background: rgb(40, 40, 40, 40);
+    --nav-background: rgb(48, 48, 48);
+    --text-hover: rgb(84, 84, 207);
+}
+
+body {
+    background-color: var(--background);
+    font-family: sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    background-color: var(--nav-background);
+}
+
+.nav-li {
+    /* margin: 15px; */
+    padding: 10px;
+    list-style-type: none;
+}
+
+.nav-li-text {
+    /* margin: 15px; */
+    padding: 10px;
+    list-style-type: none;
+}
+
+.nav-a {
+    font-size: 1.8vh;
+    font-weight: bold;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.nav-a:hover {
+    text-decoration: underline;
+    color: var(--text-hover);
+}
+
+.title {
+    color: var(--text);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.div-text {
+    display: flex;
+    justify-content: center;
+}
+
+.div-video {
+    margin-top: -60px;
+    padding: 100px;
+}
+
+
+/* no nav */
+
+.text {
+    color: var(--text);
+    text-align: center;
+    width: 700px;
+}
+
+.image {
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer {
+    background-color: #414141;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    padding: 15px;
+    text-align: center;
+    color: var(--text);
+}
+
+.footer-p {
+    margin-top: 5px;
+}
+
+/* icon */
+
+.icon {
+    margin: 15px;
+    text-align: center;
+}
+
+.fa-2xl {
+    font-size: 1.5em !important;
+}
+
+/* img */
+
+.sanbart {
+    height: 500px;
+}
+
+@media (max-width: 700px) {
+
+    .nav-li {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .icon {
+        margin: 0;
+    }
+
+    .nav-ul {
+        padding: 10px;
+    }
+
+    .nav-li-text {
+        display: none;
+    }
+
+    .fa-2xl {
+        font-size: 2em !important;
+    }
+
+    .div-text {
+        margin-top: 10px;
+        background-color: gray;
+        padding: 20px;
+        border-radius: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .div-video {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .sanbart {
+        height: 250px;
+    }
+}

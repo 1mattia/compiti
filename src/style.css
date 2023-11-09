@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text: white;
+    --background-color: rgb(40, 40, 40, 40);
+    --card-color: rgb(95, 95, 95);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+}
+
+.title {
+    color: var(--text);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--card-color);
+    border-radius: 15px;
+    height: 270px;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-title {
+    margin-top: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 1em;
+    color: var(--text);
+    cursor: default;
+}
+
+.card-consegna {
+    text-align: center;
+    cursor: default;
+    padding: 10px;
+}
+
+.card-button {
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    width: 65px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    color: var(--text);
+    font-size: 0.9em;
+    background-color: #008CBA;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00779e;
+}

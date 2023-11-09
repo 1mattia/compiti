@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text: white;
+    --background-color: rgb(40, 40, 40, 40);
+    --card-color: rgb(95, 95, 95);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.form {
+    background-color: rgb(68, 68, 68);
+    border-radius: 25px;
+    padding: 15px;
+    width: 300px;
+}
+
+.title {
+    color: var(--text);
+}
+
+.form-text {
+    margin-top: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-email {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-password {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-date {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-file {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-send {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-send:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}

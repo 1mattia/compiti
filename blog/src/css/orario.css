@@ -1,0 +1,26 @@
+:root {
+    --text: white;
+    --background: rgb(40, 40, 40, 40);
+}
+
+.orario {
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 5px;
+}

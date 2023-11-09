@@ -1,0 +1,238 @@
+/* 
+
+css della home
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text: white;
+    --background-color: rgb(40, 40, 40, 40);
+    --card-color: rgb(95, 95, 95);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+}
+
+.title {
+    color: var(--text);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--card-color);
+    border-radius: 15px;
+    height: 270px;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-title {
+    margin-top: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 1em;
+    color: var(--text);
+    cursor: default;
+}
+
+.card-consegna {
+    text-align: center;
+    cursor: default;
+    padding: 10px;
+}
+
+.card-button {
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    width: 65px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    color: var(--text);
+    font-size: 0.9em;
+    background-color: #008CBA;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00779e;
+}
+
+/* 
+
+css del sito immagini
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-color: rgb(43, 43, 43);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 12%;
+}
+
+.a-img {
+    text-decoration: none;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/* 
+
+css del sito della cartina
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40, 40, 40, 40);
+}
+
+.image {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/* 
+
+css del sito dell form
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text: white;
+    --background-color: rgb(40, 40, 40, 40);
+    --card-color: rgb(95, 95, 95);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.form {
+    background-color: rgb(68, 68, 68);
+    border-radius: 25px;
+    padding: 15px;
+    width: 300px;
+}
+
+.title {
+    color: var(--text);
+}
+
+.form-text {
+    margin-top: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-email {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-password {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-date {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-file {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-send {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-send:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
