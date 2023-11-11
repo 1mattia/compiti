@@ -62,9 +62,12 @@ section {
 
 .div-video {
     margin-top: -60px;
-    padding: 100px;
+    padding: 100px;  
 }
 
+video{
+    width: -webkit-fill-available;
+}
 
 /* no nav */
 
@@ -102,6 +105,14 @@ footer {
 
 .fa-2xl {
     font-size: 1.5em !important;
+}
+
+.icon-nav{
+    color: var(--text);
+}
+
+.icon-nav:hover{
+    color: var(--text-hover);
 }
 
 /* img */
@@ -142,11 +153,11 @@ footer {
         margin-right: 10px;
     }
 
-    .div-video {
+    /* .div-video {
         display: flex;
         justify-content: center;
         height: 200px;
-    }
+    } */
 
     .sanbart {
         height: 250px;
