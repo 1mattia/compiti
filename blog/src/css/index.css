@@ -66,7 +66,7 @@ section {
 }
 
 video{
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 /* no nav */
@@ -161,5 +161,9 @@ footer {
 
     .sanbart {
         height: 250px;
+    }
+
+    video{
+        width: -webkit-fill-available;
     }
 }
