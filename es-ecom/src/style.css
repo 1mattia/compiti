@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+.buy,
+.ordine {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 250px;
+    background-color: rgb(80, 80, 80);
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.card-caratteristiche,
+.card-title,
+.prezzo,
+.acquista-btn,
+.card-p {
+    margin-top: 10px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.acquista-btn button {
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+}
+
+.acquista-btn button:hover {
+    background-color: gray;
+}
+
+#ordini-menu {
+    text-align: center;
+    margin-top: 150px;
+}

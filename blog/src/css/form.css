@@ -1,33 +1,20 @@
 :root {
     --text: white;
     --background: rgb(40, 40, 40, 40);
-    --backgound-form: rgb(87, 87, 87);
 }
 
 form {
-    background-color: var(--backgound-form);
-    border-radius: 20px;
+    text-align: center;
     margin-top: 50px;
-    padding: 40px;
 }
 
 .form-title {
     color: var(--text);
 }
 
-.form {
-    display: flex;
-    justify-content: center;
-}
-
 input {
     margin-top: 25px;
     border-radius: 25px;
-    padding: 8px;
+    padding: 5px;
     border: none;
-}
-
-.input {
-    display: grid;
-    justify-content: center;
 }

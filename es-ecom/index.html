@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/201a5c54ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- iphone 6 -->
+
+        <div class="card">
+            <img src="./src/img/6.jpg" alt="image" height="200px" class="card-img">
+            <h2 class="card-title">Iphone 6</h2>
+
+            <p class="card-p"><strong>Disponibili:</strong><a id="disponibili">20</a></p>
+
+            <h2 class="prezzo">649€</h2>
+
+            <div class="acquista-btn">
+                <button onclick="open_menu(1);" class="acquista">Acquista</button>
+            </div>
+
+            <div class="buy" id="buy1">
+                <button onclick="close_menu(1);"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <form name="product" id="1">
+                    <input type="number" placeholder="Quantità" id="numero1">
+                    <button type="button" onclick="buy(1);">Compra</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- iphone 7+ -->
+
+        <div class="card">
+            <img src="./src/img/7+.jpg" alt="image" height="200px" class="card-img">
+            <h2 class="card-title">Iphone 7+</h2>
+
+            <p class="card-p"><strong>Disponibili:</strong><a id="numero">20</a></p>
+
+            <h2 class="prezzo">799€</h2>
+
+            <div class="acquista-btn">
+                <button onclick="open_menu(2);" class="acquista">Acquista</button>
+            </div>
+
+            <div class="buy" id="buy2">
+                <button onclick="close_menu(2);"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <form name="product" id="2">
+                    <input type="number" placeholder="Quantità" id="numero2">
+
+                    <button type="button" onclick="buy(2);">Compra</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- iphone x -->
+
+        <div class="card">
+            <img src="./src/img/x.jpg" alt="image" height="200px" class="card-img">
+            <h2 class="card-title">Iphone x</h2>
+
+            <p class="card-p"><strong>Disponibili:</strong><a id="numero">20</a></p>
+
+            <h2 class="prezzo">999€</h2>
+
+            <div class="acquista-btn">
+                <button onclick="open_menu(3);" class="acquista">Acquista</button>
+            </div>
+
+            <div class="buy" id="buy3">
+                <button onclick="close_menu(3);"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <form name="product" id="3">
+                    <input type="number" placeholder="Quantità" id="numero3">
+
+                    <button type="button" onclick="buy(3);">Compra</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- iphone 12 -->
+
+        <div class="card">
+            <img src="./src/img/12.jpg" alt="image" height="200px" class="card-img">
+            <h2 class="card-title">Iphone 12</h2>
+
+            <p class="card-p"><strong>Disponibili:</strong><a id="numero">20</a></p>
+
+            <h2 class="prezzo">839€</h2>
+
+            <div class="acquista-btn">
+                <button onclick="open_menu(4);" class="acquista">Acquista</button>
+            </div>
+
+            <div class="buy" id="buy4">
+                <button onclick="close_menu(4);"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <form name="product" id="4">
+                    <input type="number" placeholder="Quantità" id="numero4">
+
+                    <button type="button" onclick="buy(4);">Compra</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- iphone 13 -->
+
+        <div class="card">
+            <img src="./src/img/13.jpg" alt="image" height="200px" class="card-img">
+            <h2 class="card-title">Iphone 13</h2>
+
+            <p class="card-p"><strong>Disponibili:</strong><a id="numero">20</a></p>
+
+            <h2 class="prezzo">899€</h2>
+
+            <div class="acquista-btn">
+                <button onclick="open_menu(5);" class="acquista">Acquista</button>
+            </div>
+
+            <div class="buy" id="buy5">
+                <button onclick="close_menu(5);"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <form name="product" id="5">
+                    <input type="number" placeholder="Quantità" id="numero5">
+
+                    <button type="button" onclick="buy(5);">Compra</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- iphone 14 -->
+
+        <div class="card">
+            <img src="./src/img/14.jpg" alt="image" height="200px" class="card-img">
+            <h2 class="card-title">Iphone 14</h2>
+
+            <p class="card-p"><strong>Disponibili:</strong><a id="numero">20</a></p>
+
+            <h2 class="prezzo">999€</h2>
+
+            <div class="acquista-btn">
+                <button onclick="open_menu(6);" class="acquista">Acquista</button>
+            </div>
+
+            <div class="buy" id="buy6">
+                <button onclick="close_menu(6);"><i class="fa-solid fa-xmark fa-xl"></i></button>
+                <form name="product" id="6">
+                    <input type="number" placeholder="Quantità" id="numero6">
+
+                    <button type="button" onclick="buy(6);">Compra</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="ordini-menu">
+        <p>ciao coem stai</p>
+    </div>
+
+    <script src="/src/index.js"></script>
+</body>
+
+</html>
