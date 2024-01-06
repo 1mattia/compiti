@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <script src="https://kit.fontawesome.com/201a5c54ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <div class="operator">
+                <span id="summator">0</span>
+            </div>
+            <div class="display">
+                <span id="numberSum">0</span>
+            </div>
+        </div>
+        <div class="button">
+            <div class="button-btn">
+                <button><i class="fa-solid fa-percent fa-lg"></i></button>
+                <button id="ce" onclick="clearEntry()"><span>CE</span></button>
+                <button id="c" onclick="clearAll()"><span>C</span></button>
+                <button onclick="deleteLastChar()"><i class="fa-solid fa-delete-left fa-lg"></i></button>
+            </div>
+
+            <!-- Aggiunti eventi onClick per gestire i clic dei bottoni numerici e operativi -->
+            <div class="button-btn">
+                <button onclick="appendNumber('N')">N</button>
+                <button onclick="appendOperator('**')"><i class="fa-solid fa-superscript fa-lg"></i></button>
+                <button onclick="appendNumber('N')">N</button>
+                <button onclick="appendOperator('/')"><i class="fa-solid fa-divide fa-lg"></i></button>
+            </div>
+
+            <div class="button-btn">
+                <button value="7" id="7" onclick="appendNumber('7')"><span>7</span></button>
+                <button value="8" id="8" onclick="appendNumber('8')"><span>8</span></button>
+                <button value="9" id="9" onclick="appendNumber('9')"><span>9</span></button>
+                <button onclick="appendOperator('*')"><i class="fa-solid fa-xmark fa-lg"></i></button>
+            </div>
+
+            <div class="button-btn">
+                <button value="4" id="4" onclick="appendNumber('4')"><span>4</span></button>
+                <button value="5" id="5" onclick="appendNumber('5')"><span>5</span></button>
+                <button value="6" id="6" onclick="appendNumber('6')"><span>6</span></button>
+                <button onclick="appendOperator('-')"><i class="fa-solid fa-minus fa-lg"></i></button>
+            </div>
+
+            <div class="button-btn">
+                <button value="1" id="1" onclick="appendNumber('1')"><span>1</span></button>
+                <button value="2" id="2" onclick="appendNumber('2')"><span>2</span></button>
+                <button value="3" id="3" onclick="appendNumber('3')"><span>3</span></button>
+                <button onclick="appendOperator('+')"><i class="fa-solid fa-plus fa-lg"></i></button>
+            </div>
+
+            <div class="button-btn">
+                <button onclick="toggleSign()"><i class="fa-solid fa-plus-minus fa-lg"></i></button>
+                <button value="0" id="0" onclick="appendNumber('0')"><span>0</span></button>
+                <button onclick="appendDecimalPoint()"><span>,</span></button>
+                <button class="uguale" onclick="calculateResult()"><i class="fa-solid fa-equals fa-lg"
+                        style="color: white;"></i></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
